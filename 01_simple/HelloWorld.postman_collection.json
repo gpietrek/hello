@@ -1,0 +1,17 @@
+{
+	"info": {
+		"_postman_id": "decc2e80-e240-416b-8f1c-2579fcb8aacf",
+		"name": "HelloWorld",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Hello",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
