@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "decc2e80-e240-416b-8f1c-2579fcb8aacf",
+		"_postman_id": "e53dcd89-6a78-4b93-8df8-13888d6c4138",
 		"name": "HelloWorld",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -9,7 +9,28 @@
 			"name": "Hello",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/hello?vorname=Georg&name=Pietrek",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"hello"
+					],
+					"query": [
+						{
+							"key": "vorname",
+							"value": "Georg"
+						},
+						{
+							"key": "name",
+							"value": "Pietrek"
+						}
+					]
+				}
 			},
 			"response": []
 		}
