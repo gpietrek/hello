@@ -1,8 +1,8 @@
 # Hello Spring Boot World #
 
-## 01_simple
+## 02_service
 
-Controller with Spring Boot
+Controller with Spring Boot and separate service class
 
 ### Prerequisites
 - Java 17 JDK
